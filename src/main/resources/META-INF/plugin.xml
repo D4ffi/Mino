@@ -10,6 +10,7 @@
 
     <extensions defaultExtensionNs="com.intellij">
         <toolWindow factoryClass="com.github.d4ffi.mino.toolWindow.MyToolWindowFactory" id="MyToolWindow"/>
-        <postStartupActivity implementation="com.github.d4ffi.mino.startup.MyProjectActivity" />
+        <postStartupActivity implementation="com.github.d4ffi.mino.startup.MyProjectActivity" />;
+        <themeProvider id="5f6efd0b-ad35-4101-a63b-62d40cc8f502" path="/themes/HighContrast.theme.json"/>
     </extensions>
 </idea-plugin>
